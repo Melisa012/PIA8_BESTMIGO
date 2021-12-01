@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Inicio De Sesion </title>
+    <link rel="stylesheet" href="css/estilo-login.css">
+</head>
+<body>
+    <div class="login-box">
+        <img class="avatar" src="img/logo6.jpg" alt="Logo BestMigo">
+        <h1>Iniciar Sesión</h1>
+        
+        <form method="post" action="php/ingreso.php">
+
+            <label for="Usuario">Usuario</label>
+            <input type="text" placeholder="Ingrese Usuario" name="username" required>
+
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Ingrese Contraseña" name="password" required>
+
+            <input type="submit"  value="Iniciar Sesión">
+
+            <p>¿No tienes cuenta? <a class="link" href="registrovista.html"> Registrate</a></p>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

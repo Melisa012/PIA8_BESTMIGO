@@ -1,0 +1,304 @@
+body{
+	background-color: #6AB8CC;
+}
+
+*{
+list-style: none;
+text-decoration: none;
+}
+
+/*ENCABEZADO - MENU HORIZONTAL - LOGO SUPERIOR*/
+
+.logosup{
+	position: absolute;
+	width: 250px;
+	top: 79px;
+}
+
+.titulohead{
+	text-align: center;
+	background: white;
+	width: 100%;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: 'Palanquin Dark', sans-serif;
+	margin-top: 17px;
+}
+
+.encabezado{
+	text-align: center;
+	width: 200px;
+	height: 200px;
+}
+
+.logosup{
+	position: absolute;
+	left: 4%;
+}
+
+.barra-sup{
+	background-color: white;
+	position: absolute;
+	right: 1%;
+	width: 72%;
+	top: 12.5%;
+	height: 52px;
+}
+
+.barra-sup a{
+	color: black;
+	background-color: #56B5CE;
+	padding: 10.5px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 12.5px;
+}
+
+/*CONTENIDO DE LA PAGINA*/
+
+.menu-centro-cortometrajes{
+	background-color: ;
+	position: absolute;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	height: 90%;
+	text-align: center;
+	top: 25%;
+	margin-bottom: 50px;
+}
+
+.menu-centro{
+	/* background-color: ; */
+	width: 80%;
+	height: 100%;
+	border: 0px solid black;
+	text-align: center;
+	position: flex; 
+	font-family: arial; 
+
+	
+}
+
+.menu-centro-test{
+	/* background-color: ; */
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	padding: 15px 0;
+	border: 2px solid black;
+	text-align: center;
+	position: flex; 
+	font-family: arial; 
+	
+	
+}
+
+.menu-centro p{
+	font-size: 20px;
+	text-align: center;
+}
+
+/*FRASES MOTIVADORAS*/
+.frase1 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 2%;
+	top: 25%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+
+.frase2 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 35%;
+	top: 25%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+
+.frase3 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 67%;
+	top: 25%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+.frase4 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 2%;
+	top: 60%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+.frase5 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 35%;
+	top: 60%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+.frase6 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 67%;
+	top: 60%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+}
+.frase7 img{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left: 35%;
+	top: 95%;
+	width: 30%;
+	height: 30%;
+	box-shadow: 1px 1px 3px;
+	margin-bottom: 6%;
+}
+
+/* CORTOMETRAJES */
+
+.video1{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 1%;
+	box-shadow: 1px 1px 3px;
+}
+
+.video2{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 55%;	
+	box-shadow: 1px 1px 3px;
+}
+
+.video3{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	bottom: -30%;
+	margin-bottom: 5%;
+	box-shadow: 1px 1px 3px;
+}
+
+/* TEST DE AUTOESTIMA */
+
+.caja-test{
+	text-align: center;
+	font-size: 20px; 
+	position: absolute;
+	top: 30%;
+	height: 30%;
+	width: 80%;
+	margin-left: 9%;
+}
+
+.test1{
+	position: relative;
+	background-color: #ADD8E6;
+	padding: 40px;
+	left: 5%;
+	border-radius: 20px;
+	width: 160px;
+}
+
+.test2{
+	position: relative;
+	left: 36%;
+	background-color: #ADD8E6;
+	padding: 40px;
+	top: -72%;
+	border-radius: 20px;
+	width: 160px;
+}
+
+.test3{
+	position: relative;
+	left: 70%;
+	background-color: #ADD8E6;
+	padding: 40px;
+	top: -147%;
+	border-radius: 20px;
+	width: 160px;
+}
+
+/* RUTINAS DIARIAS */
+
+.menu-centro-rutinas1{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 80%;
+	height: 40%;
+}
+
+.rutina1{
+	box-shadow: 1px 1px 1px black;
+	padding: 2px;
+	width: 50%;
+	height: 100%;
+}
+
+.rutina2{
+	box-shadow: 1px 1px 1px black;
+	padding: 2px;
+	width: 50%;
+	height: 100%;
+}
+
+.menu-centro-rutinas2{
+	position: absolute;
+	top: 25%;
+	left: 51%;
+	width: 80%;
+	height: 40%;
+}
+
+.rutina3{
+	box-shadow: 1px 1px 1px black;
+	padding: 2px;
+	width: 50%;
+	height: 100%;
+}
+.rutina4{
+	box-shadow: 1px 1px 1px black;
+	padding: 2px;
+	width: 50%;
+	height: 100%;
+	margin-bottom: 3%;
+}
+
+/*FOOTER*/
+
+footer{
+	background-color: #358FA6;
+ 	position: fixed;
+	text-align: center;
+	width: 100%;
+	bottom: 0%;
+	left: 0;
+	color: white;
+	font-size: 13px;
+	font-style: italic;
+}

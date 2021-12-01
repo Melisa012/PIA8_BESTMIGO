@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Registro </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo-registro.css">
+</head>
+<body>
+	<div class="container-login100" style="background-image: url('img/foto.jpg');">
+    <div class="login-box">
+        <img class="avatar" src="img/imag.jpg" alt="imag.jpg">
+        <h1>Registro</h1>
+        
+        <form method="post" action="php/registrar.php">
+
+            <label for="Documento de Identidad">Documento de Identidad</label>
+            <input type="text" placeholder="Ingrese su doc. de identidad" name="documento_identidad" required="">
+
+            <label for="Nombres">Nombres</label>
+            <input type="text" placeholder="Ingrese nombres" name="nombre" required="">
+
+            <label for="Apellidos">Apellidos</label>
+            <input type="text" placeholder="Ingrese apellidos" name="apellido" required="">
+
+            <label for="Nombre de usuario">Nombre de usuario</label>
+            <input type="text" placeholder="Ingrese nombre de usuario" name="usuario" required="">
+
+            <label for="Correo electronico">Correo electronico</label>
+            <input type="email" placeholder="Ingrese correo electronico" name="correo" required="">
+
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Ingrese contraseña" name="password" required="">
+
+            <input type="submit"  value="Registrarse" class="button">
+        </form>
+            <div class="tyctexto">
+                <p>Al registrarse, aceptas nuestros términos y condiciones.</p>
+                <p>¿Ya tienes cuenta? <a class="link" href="index.html">Iniciar Sesión</a></p>
+             </div>
+
+    </div>
+    
+</body>
+</html>
